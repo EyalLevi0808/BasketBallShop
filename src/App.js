@@ -1,10 +1,14 @@
 import React, { Fragment } from "react";
 import Header from "./components/Layout/Header";
+import Merch from "./components/Mrechendise/Merch";
 
 function App() {
   return (
     <Fragment>
-      <Header />;
+      <Header />
+      <main>
+        <Merch />
+      </main>
     </Fragment>
   );
 }
